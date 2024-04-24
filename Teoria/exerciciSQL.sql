@@ -31,6 +31,23 @@ CREATE TABLE CIUTAT(
 -- 6. Fer les sentencies SQL necessàries per inserir totes les dades a totes les taules.
 -- 7. Fer les sentencies SQL necessàries per eliminar totes les dades de la taula CIUTAT.
 -- 8. FerlessentenciesSQLnecessàriespertornarainserirtoteslesdadesatotesles taules.
+insert into ciutat values ('Barcelona',2000000,'Si');
+insert into ciutat values ('Madrid',3000000,'No');
+insert into ciutat values ('París',4000000,'No');
+insert into ciutat values ('Londres',5000000, 'No');
+insert into aeroport values ('El prat','Barcelona',4);
+insert into aeroport values ('Barajas','Madrid',5);
+insert into aeroport values ('Charles de Gaulle','París',7);
+insert into aeroport values ('Orly','París',4);
+insert into aeroport values ('Gatwick','Londres',6);
+insert into avio values ('DC-1024', 'DC-10', 50, 'El Prat');
+insert into avio values ('BG-2048', 'Boeing 737', 200, 'Barajas');
+insert into avio values ('BG2-128', 'Boeing 747', 500, 'El Prat');
+insert into avio values ('CN-64', 'Cessna 45', 10, 'Orly');
+insert into avio values ('BG2-512', 'Boeing 747', 550, Null);
+insert into avio values ('DC-4096', 'DC-10', 100, 'Charles de Gaulle');
+insert into avio values ('BG-256', 'Boeing 737', 250, Null);
+insert into avio values ('BG2-8192', 'Boeing 747', 500, 'Charles de Gaulle');
 -- 9. Fer una sentencia SQL per afegir 5 passatgers a l’avió amb identificador “CN-64”
 -- 10.Fer una sentencia SQL per obtenir totes les dades de tots els aeroports
 -- 11.Fer una sentencia SQL per obtenir el nom de totes les ciutats
